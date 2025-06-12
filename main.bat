@@ -7,4 +7,3 @@ python .\3-crop_straighted\image_straightener.py
 python .\4-mcq_detect\mcq_scanner.py .\Output\croppedstraighten_answer_sheet.png -o .\Output\ -f my_answers.json --debug
 
 python .\5-jsontocsv\json_to_csv_exporter.py --input .\Output\my_answers.json --output .\Output\results.csv
-Input file: .\Output\my_answers.json
